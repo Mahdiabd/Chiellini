@@ -1,0 +1,86 @@
+#main_page{
+    width: 1000px;
+    margin:auto
+}
+header{
+    background-color:black;
+    align-items: flex-end;
+}
+#caric{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#entete{
+    display: flex;
+}
+#caric img{
+    width: 159px;
+    height: 160px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+nav a:hover{
+    color: teal;
+    border-bottom: 3px solid teal;
+}
+#container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#Detail{
+    background-color: teal;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+#WhoIs{
+    text-align: justify;
+    margin-right: 2px;
+    margin-left: 4px;
+    padding: 5px;
+}
+#juv{
+    text-align: justify;
+    margin-right: 2px;
+    margin-left: 4px;
+    padding: 5px;
+}
+video{
+    margin-left: 25px;
+    background-color: black;
+}
+#Nat{
+    text-align: justify;
+    margin-right: 2px;
+    margin-left: 4px;
+    padding: 5px;
+}
+#chiel{
+    margin-left: 15px;
+}
+
+#réseaux li{
+    text-align: center;
+}
